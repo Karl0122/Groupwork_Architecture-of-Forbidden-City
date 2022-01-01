@@ -7,5 +7,5 @@ layout: exhibit
 tags: test, day, twig
 para: height:100m, area:1000m2
 intro: testtesttesttesttesttesttesttesttesttesttest
-time: test time
+time: test time test
 ---
