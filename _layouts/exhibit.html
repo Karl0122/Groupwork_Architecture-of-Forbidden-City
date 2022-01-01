@@ -22,6 +22,8 @@
             <img src = "{{ page.image-url }}" id = "exhibit">
             <p>{{ page.title }} by <a href = "{{ creator.homepage }}">{{ page.creator }}</a></p>
             <p>{{ page.date | date: "%d %B %Y"}}</p>
+            <p>parameter: {{ page.para }}</p>
+            <p>intro: {{ page.intro }}</p>
             <p><a href="{{ licence.url }}">{{ page.licence }}</a></p>
             <p>Tags: {{ page.tags }}</p>
         </div>
